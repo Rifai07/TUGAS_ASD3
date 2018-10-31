@@ -1,0 +1,16 @@
+package TUGAS_ASD3;
+
+import java.util.ArrayList;
+public class Arraylistfloat {
+
+	
+	public static void main(String[] args) {
+		ArrayList<Float>isi = new ArrayList<Float>();
+		isi.add(1.2A);
+		isi.add(2.3A);
+		isi.add(3.4A);
+		System.out.println("arraylistfloat : "+isi.toString());
+		System.out.println("SIZE : "+isi.size());
+
+	}
+}
