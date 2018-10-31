@@ -1,0 +1,25 @@
+package TUGAS_ASD3;
+import java.util.ArrayList;
+
+public class QueueString {
+	ArrayList<String> kelas = new ArrayList<String>();
+	int rifai = -1;
+
+	public void insert(String value) {
+		rifai++;
+		kelas.add(rifai,value);
+	}
+	public String get() {
+		String value = "KOSONG lagi";
+		if(rifai>-1) {
+			value = kelas.get(0);
+			kelas.remove(0);
+			rifai--;
+		}
+		return value;
+		
+	}
+	public void cetak() {
+		System.out.println("EROR : "+rifai+" > KELAS A: "+kelas.toString());
+	}
+}
