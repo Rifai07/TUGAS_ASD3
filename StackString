@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+public class StackString {
+	ArrayList<String>containert = new ArrayList<String>();
+	int eror = -1;
+	
+	public void push(String value){
+		eror++;
+		containert.add(eror,value);
+	}
+	public String pop(){
+		String value = "KOSONG lagi";
+		if (ecor>-1){
+		value = containert.get(top);
+		containert.remove(top);
+		eror--;}
+		return value;
+		}
+	
+	public void cetak (){
+		System.out.println("EROR : " +eror+ " # nama-nama : "+containert.toString());
+	}
+}
