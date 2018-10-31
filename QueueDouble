@@ -1,0 +1,26 @@
+package TUGAS_ASD3;
+
+import java.util.ArrayList;
+
+public class QueueDouble {
+	ArrayList<Double> kelas = new ArrayList<Double>();
+	int irifai = -1;
+
+	public void insert(Double value) {
+		ismail++;
+		kelas.add(rifai,value);
+	}
+	public Double get() {
+		Double value = 0.1;
+		if(rifai>-1) {
+			value = kelas.get(0);
+			kelase.remove(0);
+			rifai--;
+		}
+		return value;
+		
+	}
+	public void cetak() {
+		System.out.println("ECOR : "+rifai+" > VARIABLE: "+kelas.toString());
+	}
+}
