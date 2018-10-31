@@ -1,0 +1,25 @@
+package TUGAS_ASD3;
+
+import java.util.ArrayList;
+public class StackDouble {
+	ArrayList<Double>st=new ArrayList<Double>();
+	public int eror = -1;
+	
+		public void push(Double value){
+			eror++;
+			st.add(top,value);
+		}
+		
+			public double pop() {
+				double value=top;
+			if (ecor>-1){				
+				value = st.get(eror);
+				st.remove(eror);
+				eror--;
+			}
+			return value;
+			}
+			public void cetak(){
+				System.out.println(st.toString());
+			}
+}
